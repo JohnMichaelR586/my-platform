@@ -13,6 +13,8 @@ function App() {
       </p>
 
       <p>Initial frontend setup in progress.</p>
+
+      <p>This is a small change meant for testing purposes.</p>
     </main>
   )
 }
