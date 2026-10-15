@@ -1,20 +1,28 @@
 import './App.css'
-
+import Card from './Card';
+import logo from './assets/JR.png'
 function App() {
   return (
     <main>
-      <h1>Your Name</h1>
+      <img src={logo} alt="App logo" />
+      <h1>JohnMichael Ross</h1>
 
-      <h2>Senior Capstone Production Platform</h2>
+      <Card title="About Me">
+        <p>
+        Hello! I am a Computer Science major with minors in cybersecurity 
+        and game development and design. I enjoy delving into other worlds, whether it be
+        through music, games, or reading. My hope in my career is that I can make a
+        difference someday by doing something that has meaning. 
+        </p>
+      </Card>
 
-      <p>
-        This site will present my software projects, engineering decisions,
-        and production systems.
-      </p>
+      <Card title="Senior Capstone Production Platform">
+        <p>
+          This site will present my software projects, engineering decisions,
+          and production systems.
+        </p>
+      </Card>
 
-      <p>Initial frontend setup in progress.</p>
-
-      <p>This is a small change meant for testing purposes.</p>
     </main>
   )
 }
